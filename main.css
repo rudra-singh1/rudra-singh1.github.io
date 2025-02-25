@@ -1,0 +1,47 @@
+body {
+    font-family: SerifFont, serif;
+    margin: auto;
+    max-width: 600px;
+    padding: 18px;
+    
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  .thai:hover span {
+    display: none
+  }
+  
+  .thai:hover:before {
+    font-weight: 220;
+    content: "ภาธิรัช โฆษะครรชิต"
+  }
+  
+  html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
+  a:link {
+    color: salmon;
+  }
+  
+  a:hover {
+    color: crimson;
+  }
+  
+  a:visited {
+    color:crimson;
+  }
+  
+  ul.no-bullets {
+      list-style-type: none;
+    }
+  
+  @font-face {
+    font-family: SerifFont;
+    src: url(font/GFSHeraklit.otf);
+  }
