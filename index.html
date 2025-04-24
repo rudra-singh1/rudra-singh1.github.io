@@ -37,7 +37,7 @@
         <!-- <a  href="https://www.ey.com/en_us" target="_blank"> EY</a> and -->
       </ul>
       </p>
-        Interests: Distributed Systems, ML Infrastructure, Full-Stack Development, ICTD Research
+        Interests: LLM Reasoning, Distributed Architectures, and ICTD Research
     </div>
 
       
@@ -52,46 +52,48 @@
           <p>2023 - Present: Research Assistant at ICTD Lab</p> 
           <p>         Working as a research assistant on multiple projects with <a href="https://estherjang.com/">Esther Jang</a> and <a href="https://kurti.sh">Kurtis Heimerl</a>. Projects include:
             <ul>
-              <li><a href="https://github.com/Local-Connectivity-Lab/netbot/tree/95884119bd56dfc7f6ad1d4cbfdf1e0cefbe17a4">Netbot</a>: Ticket management system for Discord-based Jira workflows, with LLM-powered data redaction and access control to keep sensitive information hidden from unregistered users</li>
-
+              <li><a href="https://github.com/Local-Connectivity-Lab/netbot/tree/95884119bd56dfc7f6ad1d4cbfdf1e0cefbe17a4">Netbot</a>: Discord-based Jira ticket system with LLM redaction and access control to protect sensitive info</li>
+              <!-- <ul>
+                <li>First author on paper in progress for submission to <em>Proceedings of the ACM on Human Computer Interaction (HCI) 2025</em></li>
+              </ul> -->
               <li><a href="https://coverage.seattlecommunitynetwork.org/">Seattle Network Analysis</a>: Visualizations of coverage and performance analysis for Seattle Community Cellular Networks</li>
-              
-              <li><a href="https://vaultwarden.seattlecommunitynetwork.org/#/login">Vaultwarden</a>: Open-source password manager used by 200+ SCN members</li>
+              <li><a href="https://docs.seattlecommunitynetwork.org/tutorials/grafana-log-dashboard/">Server Log Analysis</a>: Interactive Grafana dashboard that pulls and visualizes real-time server logs across systems with one click</li>
+              <li><a href="https://vaultwarden.seattlecommunitynetwork.org/#/login">Vaultwarden</a>: Open-source password manager deployed on Azure for 200+ members of SCN</li>
               
           </ul></p>
         </li>
         <li> 2024: Software Engineer Intern at <a href="https://www.cdc.gov/" target="_blank">CDC</a> (Centers for Disease Control and Prevention</a>) </li>
-        <p>Developed CDC's internal site for processing and visualizing data from a pipeline handling national records, integrating multi-factor authentication. Created a feature for admins to view and modify data access controls at both granular and global levels. Used Python's FastAPI, PostgreSQL, OAuth, and Angular with TypeScript. </p>
+        <p>Enhanced CDC’s data pipeline with a role-based auth system and interactive UI for admin and client access using FastAPI, PostgreSQL, OAuth, and Angular</p>
         <li>
           <p>2024 - Present: Resident Advisor at University of Washington Housing</p>
-          <p>Oversee a community of 50 residents, providing mentorship, handling roommate conflicts, organizing events, and ensuring a safe and supportive living environment.</p>
+          <p>Support a community of 50 residents through conflict mediation, mentorship, and event planning to foster a safe, inclusive living environment</p>
         </li>
         <!-- <li>
           <p>2020: Games Capstone</p>
         </li> -->
         <li>
           <p>2022 - 2023: Research Intern at Georgia Tech VIP Program</p>
-          Tracked fan movement in Bobby Dodd Stadium through sensor data and visualized on heatmaps. Presented findings to Georgia Tech's broadcasting team to help determine best crowd camera placements post-touchdown. Used C#, SQL Server, and ReactJS.
+          Tracked crowd movement in Bobby Dodd Stadium using sensors and heatmaps to improve post-touchdown camera angles. Used C#, SQL Server, and ReactJS
         </li>
         <li>
           <p>2022: Research Intern at Georgia Tech Research Institute. Team: <a href="https://gtri.gatech.edu/laboratories/sensors-and-electromagnetic-applications-laboratory" target="_blank">SEAL Lab</a> </p>
-          Developed a MATLAB API on the SPIKE platform to automate RF signal generation and data acquisition. Engineered C-based amplifier control software using a Texas Instruments microchip for precise voltage adjustments, supported by comprehensive design documentation.</p>
+          Built an API to automate RF data collection and tuning for GTRI scientists, and designed a wireless testbed for U.S. DoD use. Used MATLAB, C, and Simulink</p>
         </li>
         <li>
           <p>2021 - 2022: Research Intern at Georgia State University </p>
-          Developed an active noise cancellation algorithm for leaf blowers, integrated as an Alexa skill. Used MATLAB, DSP, AWS, and Alexa Skills Kit SDK.</p>
+          Designed noise cancellation algorithms to reduce PTSD-triggering leaf blower noise for elder care residents using an Alexa system. Used MATLAB, Docker, and AWS</p>
         </li>
       </ul>
     </div>
     <h2>Projects</h2>
     <ul>
-      <li>
+      <!-- <li>
         <p>
           <b>Distributed Key-Value Store</b>
           <span style="float:right;">Java</span><br>
           Architected a highly available, sharded key-value store implementing Multi-Paxos for consensus. Integrated Two-Phase Commit protocol to ensure ACID compliance for distributed transactions across shards.
         </p>
-      </li>
+      </li> -->
 
       <li>
         <p>
@@ -101,36 +103,29 @@
         </p>
       </li>
 
-<!--       <li>
-        <p>
-          <b>ML Arctic Buoy Predictor</b>
-          <span style="float:right;">Python, Optuna, Jupyter Notebooks </span><br>
-         Benchmarked ML and DL models to forecast Arctic Buoy positions, identifying XGBoost as the best performer with 73% accuracy. Optimized hyperparameters using Optuna and visualized trajectories with Python libraries.
-      </li> -->
-
-      <li>
+      <!-- <li>
         <p>
           <b>Multithreaded Search Engine</b>
           <span style="float:right;">C++, C</span><br>
           Developed disk-based file system search engine including a file system crawler and indexer. Implemented a multi-threaded web server front-end to the query processor to allow multiple client sockets
         </p>
+      </li> -->
+
+      <li>
+        <p>
+          <b>Personal Identity Search Engine</b>
+          <span style="float:right;">LLaMa, Python, Flask, React, DSPy</span><br>
+          Developed a photo-based identity search engine achieving 92% accuracy in identifying individuals and retrieving summarized contact information. Adopted by 20+ UW CSE faculty members to enhance networking
+        </p>
       </li>
 
       <li>
         <p>
-          <b>SnapSearch (LLM Agent)</b>
-          <span style="float:right;">Ollama, React, Python, Flask </span><br>
-          Developed an LLM-powered identification agent to extract personal details from a single photo of a person (ie. email, phone, workplace, etc) Integrated a custom web scraper, multithreaded API calls, NLP-driven metadata extraction, and DSPy for structured LLM output.
+          <b>Flight App</b>
+          <span style="float:right;">Java, Azure, SQL</span><br>
+          Developed a backend flight search application using Java, SQL, Azure, and open-source flight data, allowing users to find flights between specified locations on specific dates with a maximum number of layovers
         </p>
       </li>
-
-      <!-- <li>
-        <p>
-          <b>Human Tagging Tool</b>
-          <span style="float:right;">Llama LLM, RAG, JavaScript, Flask</span><br>
-          A tool that lets recruiters or professors snap a photo and get a summarized bio and contact details within a minute, sourced from web scraping and synthesized by an LLM.
-        </p>
-      </li> -->
 
         
 
