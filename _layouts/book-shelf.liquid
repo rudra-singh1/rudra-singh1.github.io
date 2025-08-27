@@ -20,7 +20,6 @@ layout: page
       {% endif %}
 
       <figure class="cover">
-        <a class="cover-link" href="{{ item.url | relative_url }}">
           {% if item.cover %}
             <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
           {% elsif item.olid %}
@@ -39,7 +38,7 @@ layout: page
           {% else %}
             <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
           {% endif %}
-        </a>
+        
       </figure>
       {% if forloop.last %}
         </ul>

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-04-07 07:59:00-0400
+date: 2023-12-04 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-New website! Porting over information throughout the next few weeks 🚧
+Began research at the ICTD Lab with Prof. Kurtis Heimerl and Dr. Esther Jang.
